@@ -1,0 +1,192 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Poppins','Montserrat';
+  
+
+}
+body{
+   height: auto;
+    
+ 
+}
+
+
+header{
+    width: 100%;
+    height: 80px;
+    background-color: #131515;
+    
+}
+.container-logo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+border-radius: 50px;
+}
+.search-icon{
+    color: hsla(0, 0%, 100%, 0.74);
+    cursor: pointer;
+}
+.register a{
+    color: white;
+    text-decoration: none;
+
+}
+.register a:hover{
+    background-color: hsla(180, 50%, 79%, 0.233);
+   
+}
+.cart-icon{
+    color:white;
+    
+}
+.cart-icon:hover{
+    color:hsla(180, 50%, 79%, 0.233);
+}
+nav{
+    width: 100%;
+
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:#e3e4e1;
+    
+}
+.container-nav{
+ 
+    
+}
+.container-nav a{
+    text-decoration: none;
+    color: aliceblue;
+    text-transform: uppercase;
+}
+.container-nav ul{
+    text-decoration: none;
+   
+}
+.container-nav  li{
+    display:inline-block;
+    padding: 5px;
+}
+.warning{color: aliceblue;
+}
+
+footer{
+    width: 100%;
+    height: 130px;
+    background-color: #131515;
+ 
+  
+    
+   
+
+    
+   
+}
+.footer-logo{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  padding-top: 5px;
+    
+}
+
+
+h2{
+    text-align: center;
+}
+
+main{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #e9ecef;
+   
+   
+
+
+    
+    
+}
+.hero-image{
+  
+}
+
+
+.flavorEnjoy table{
+  
+ font-weight: bolder;
+    font-size: 10px;
+   text-align: center;
+   overflow: hidden;
+}
+
+
+.flavorEnjoy button{
+    margin: 5px;
+    padding: 5px;
+  width: 100px;
+  height: 40px;
+  
+}
+.flavorEnjoy button:hover{
+    color: rgba(128, 128, 128, 0.747);
+   
+}
+.enjoy-main{
+   height: 120vh;
+   width: 100%;
+   
+}
+
+.Quantity{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    font-size: 20px;
+    text-transform: uppercase;
+
+}
+
+
+    
+
+.cart-main{
+    width: 100%;
+    height: 100vh;
+}
+
+.liquor-warning{
+    background-image: linear-gradient(transparent,rgba(255,255,255)),url(home-image/liquor-warning.jpg);
+}
+
+
+
+
+
+.card:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+
+
+@media only screen and (max-width: 576px) {
+    .warning{
+        font-size: 12px;
+    }
+     
+   
+ }
